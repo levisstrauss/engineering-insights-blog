@@ -27,10 +27,10 @@ const footerLinks = {
 }
 
 const socialLinks = [
-  { name: "GitHub", href: "https://github.com", icon: Github },
-  { name: "Twitter", href: "https://twitter.com", icon: Twitter },
-  { name: "LinkedIn", href: "https://linkedin.com", icon: Linkedin },
-  { name: "Email", href: "mailto:hello@codecraft.dev", icon: Mail },
+  { name: "GitHub", href: "https://github.com/levisstrauss", icon: Github },
+  { name: "Twitter", href: "https://x.com/zcoulibalyeng", icon: Twitter },
+  { name: "LinkedIn", href: "https://linkedin.com/codemon", icon: Linkedin },
+  { name: "Email", href: "mailto:zcoulibalyeng@gmail.com", icon: Mail },
 ]
 
 export function Footer() {
@@ -39,7 +39,7 @@ export function Footer() {
   return (
     <footer className="relative mt-20 border-t border-border bg-card/50">
       {/* Background gradient */}
-      <div className="absolute inset-0 bg-gradient-to-t from-background to-transparent pointer-events-none" />
+      <div className="absolute inset-0 bg-linear-to-t from-background to-transparent pointer-events-none" />
 
       <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         {/* Newsletter Section */}
@@ -71,12 +71,12 @@ export function Footer() {
         <div className="py-12 grid grid-cols-2 md:grid-cols-4 gap-8">
           {/* Brand Column */}
           <div className="col-span-2 md:col-span-1">
-            <Link href="/" className="flex items-center gap-2">
+            <Link href="/public" className="flex items-center gap-2">
               <div className="flex h-9 w-9 items-center justify-center rounded-lg bg-primary">
                 <Sparkles className="h-5 w-5 text-primary-foreground" />
               </div>
               <span className="font-serif text-xl font-bold text-foreground">
-                Code<span className="text-primary">Craft</span>
+                Engineering<span className="text-primary">Insight</span>
               </span>
             </Link>
             <p className="mt-4 text-sm text-muted-foreground max-w-xs">
@@ -146,7 +146,7 @@ export function Footer() {
 
         {/* Bottom Bar */}
         <div className="py-6 border-t border-border flex flex-col sm:flex-row items-center justify-between gap-4">
-          <p className="text-sm text-muted-foreground">© {currentYear} CodeCraft. All rights reserved.</p>
+          <p className="text-sm text-muted-foreground">© {currentYear} EngineeringInsight. All rights reserved.</p>
           <div className="flex items-center gap-6 text-sm text-muted-foreground">
             <Link href="/terms" className="hover:text-primary transition-colors">
               Terms
