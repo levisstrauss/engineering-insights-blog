@@ -6,7 +6,7 @@ export const authors: Author[] = [
     name: "Alexandra Chen",
     avatar: "/professional-woman-developer-portrait.jpg",
     role: "Senior AI Engineer",
-    bio: "Leading AI research at top tech companies. Passionate about-page-components making ML accessible to everyone.",
+    bio: "Leading AI research at top tech companies. Passionate about making ML accessible to everyone.",
     twitter: "alexchen_ai",
     github: "alexchen",
     linkedin: "alexandra-chen",
@@ -395,7 +395,7 @@ export const blogPosts: BlogPost[] = [
     title: "Kubernetes for Developers: Essential Concepts and Workflows",
     slug: "kubernetes-developers-essential-concepts",
     excerpt:
-      "Everything developers need to know about-page-components Kubernetes. Deployments, services, and local development workflows.",
+      "Everything developers need to know about Kubernetes. Deployments, services, and local development workflows.",
     content: "",
     coverImage: "/placeholder.svg?height=600&width=1200",
     author: authors[1],
