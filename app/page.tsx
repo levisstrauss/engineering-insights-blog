@@ -1,6 +1,7 @@
 import { Header } from "@/components/header"
 import { Footer } from "@/components/footer"
 import { HeroSection } from "@/components/home/hero-section"
+import { FeaturedPosts } from "@/components/home/featured-posts"
 
 
 export default function HomePage() {
@@ -9,6 +10,7 @@ export default function HomePage() {
         <Header />
         <main>
             <HeroSection />
+            <FeaturedPosts />
 
         </main>
         <Footer />
