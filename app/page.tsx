@@ -3,6 +3,7 @@ import { Footer } from "@/components/footer"
 import { HeroSection } from "@/components/home/hero-section"
 import { FeaturedPosts } from "@/components/home/featured-posts"
 import { CategoriesSection } from "@/components/home/categories-section"
+import { LatestPosts } from "@/components/home/latest-posts"
 
 
 export default function HomePage() {
@@ -13,6 +14,7 @@ export default function HomePage() {
             <HeroSection />
             <FeaturedPosts />
             <CategoriesSection />
+            <LatestPosts />
         </main>
         <Footer />
     </div>
