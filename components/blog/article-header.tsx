@@ -24,7 +24,7 @@ export function ArticleHeader({ post }: ArticleHeaderProps) {
       <div className="relative h-[40vh] md:h-[50vh] lg:h-[60vh] overflow-hidden">
         <Image src={post.coverImage || "/placeholder.svg"} alt={post.title} fill className="object-cover" priority />
         {/* Gradient Overlay */}
-        <div className="absolute inset-0 bg-gradient-to-t from-background via-background/60 to-transparent" />
+        <div className="absolute inset-0 bg-linear-to-t from-background via-background/60 to-transparent" />
       </div>
 
       {/* Content Overlay */}
