@@ -7,6 +7,9 @@ import { useState } from "react"
 import { Mail, Check, Sparkles, Zap, BookOpen, Code2 } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
+import {Header} from "@/components/header";
+import {Footer} from "@/components/footer";
+
 
 const features = [
   {
@@ -46,10 +49,11 @@ export default function NewsletterPage() {
 
   return (
     <main className="min-h-screen bg-background">
+      <Header />
       {/* Hero */}
       <section className="relative py-24 overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-b from-primary/10 to-transparent" />
-        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-primary/20 rounded-full blur-3xl" />
+        <div className="absolute inset-0 bg-linear-to-b from-primary/10 to-transparent" />
+        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-150 h-150 bg-primary/20 rounded-full blur-3xl" />
 
         <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <motion.div
@@ -156,6 +160,7 @@ export default function NewsletterPage() {
           </div>
         </div>
       </section>
+      <Footer />
     </main>
   )
 }
