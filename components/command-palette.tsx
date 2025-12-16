@@ -29,7 +29,7 @@ const pages: SearchResult[] = [
   { id: "home", type: "page", title: "Home", href: "/", icon: Home },
   { id: "blog", type: "page", title: "Blog", href: "/blog", icon: FileText },
   { id: "categories", type: "page", title: "Categories", href: "/categories", icon: FolderOpen },
-  { id: "about", type: "page", title: "About", href: "/about", icon: User },
+  { id: "about", type: "page", title: "About", href: "/about-page-components", icon: User },
   { id: "admin", type: "page", title: "Admin Dashboard", href: "/admin", icon: Settings },
 ]
 
