@@ -1,4 +1,4 @@
-import type { Author, Category, BlogPost, Tag } from "../../engineering-blog-website/lib/types"
+import type { Author, Category, BlogPost, Tag } from "./types"
 
 export const authors: Author[] = [
   {

@@ -124,19 +124,19 @@ export function Header() {
                 </kbd>
               </Button>
 
-              <Link href="/bookmarks">
-                <Button
-                  variant="ghost"
-                  size="icon"
-                  className={cn(
-                    "text-muted-foreground hover:text-foreground",
-                    pathname === "/bookmarks" && "text-primary",
-                  )}
-                >
-                  <Bookmark className="h-5 w-5" />
-                  <span className="sr-only">Reading List</span>
-                </Button>
-              </Link>
+              {/*<Link href="/bookmarks">*/}
+              {/*  <Button*/}
+              {/*    variant="ghost"*/}
+              {/*    size="icon"*/}
+              {/*    className={cn(*/}
+              {/*      "text-muted-foreground hover:text-foreground",*/}
+              {/*      pathname === "/bookmarks" && "text-primary",*/}
+              {/*    )}*/}
+              {/*  >*/}
+              {/*    <Bookmark className="h-5 w-5" />*/}
+              {/*    <span className="sr-only">Reading List</span>*/}
+              {/*  </Button>*/}
+              {/*</Link>*/}
 
               {mounted && (
                 <Button

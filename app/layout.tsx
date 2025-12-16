@@ -80,7 +80,7 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning>
       <body className={`${inter.variable} ${playfair.variable} ${geistMono.variable} font-sans antialiased`}>
       <ThemeProvider attribute="class" defaultTheme="dark" enableSystem disableTransitionOnChange={false}>
-        {/*<GlobalEnhancements />*/}
+        <GlobalEnhancements />
         {children}
       </ThemeProvider>
       </body>
