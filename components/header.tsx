@@ -72,7 +72,7 @@ export function Header() {
 
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="flex h-16 items-center justify-between">
-            <Link href="/public" className="flex items-center gap-2 group">
+            <Link href="/" className="flex items-center gap-2 group">
               <motion.div
                 whileHover={{ rotate: 180 }}
                 transition={{ duration: 0.5 }}
@@ -81,7 +81,7 @@ export function Header() {
                 <Sparkles className="h-5 w-5 text-primary-foreground" />
               </motion.div>
               <span className="font-serif text-xl font-bold text-foreground">
-                Engineering<span className="text-primary">Insight</span>
+                Engineering<span className="text-primary">Insights</span>
               </span>
             </Link>
 

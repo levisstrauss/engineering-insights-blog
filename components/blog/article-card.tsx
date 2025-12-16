@@ -48,7 +48,7 @@ export function ArticleCard({ post, variant = "default", index = 0 }: ArticleCar
               className="object-cover transition-transform duration-500 group-hover:scale-105"
             />
             {/* Gradient Overlay */}
-            <div className="absolute inset-0 bg-gradient-to-t from-card via-card/50 to-transparent" />
+            <div className="absolute inset-0 bg-linear-to-t from-card via-card/50 to-transparent" />
 
             {/* Category Badge */}
             <div className="absolute top-4 left-4">
