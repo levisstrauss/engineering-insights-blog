@@ -7,7 +7,7 @@ import { motion, AnimatePresence } from "framer-motion"
 import { Menu, X, Search, Moon, Sun, Command, Sparkles, Bookmark } from "lucide-react"
 import { useTheme } from "next-themes"
 import { Button } from "@/components/ui/button"
-import { CommandPalette } from "@/components/ui/command-palette"
+import { CommandPalette } from "@/components/command-palette"
 import { cn } from "@/lib/utils"
 
 const navigation = [

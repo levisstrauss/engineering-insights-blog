@@ -1,8 +1,8 @@
 "use client"
 
 import { ScrollProgress } from "./scroll-progress"
-import { Preloader } from "./preloader"
-import { BackToTop } from "./back-to-top"
+import { Preloader } from "./ui/preloader"
+import { BackToTop } from "./ui/back-to-top"
 import { KeyboardShortcuts } from "./keyboard-shortcuts"
 import { Snowfall } from "./snowfall"
 

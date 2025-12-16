@@ -2,7 +2,7 @@ import type React from "react"
 import type { Metadata, Viewport } from "next"
 import { Inter, Playfair_Display, Geist_Mono } from "next/font/google"
 import { ThemeProvider } from "@/components/theme-provider"
-
+import { GlobalEnhancements } from "@/components/global-enhancements"
 import "./globals.css"
 
 const inter = Inter({
@@ -80,6 +80,7 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning>
       <body className={`${inter.variable} ${playfair.variable} ${geistMono.variable} font-sans antialiased`}>
       <ThemeProvider attribute="class" defaultTheme="dark" enableSystem disableTransitionOnChange={false}>
+        <GlobalEnhancements />
         {children}
       </ThemeProvider>
       </body>
