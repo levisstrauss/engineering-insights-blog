@@ -1,9 +1,12 @@
+import { Header } from "@/components/ui/header"
+
 
 export default function HomePage() {
   return (
     <div className="min-h-screen bg-background">
+        <Header />
       <main>
-       <p>Hello World!</p>
+
       </main>
     </div>
   )

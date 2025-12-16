@@ -81,7 +81,7 @@ export function Header() {
                 <Sparkles className="h-5 w-5 text-primary-foreground" />
               </motion.div>
               <span className="font-serif text-xl font-bold text-foreground">
-                Code<span className="text-primary">Craft</span>
+                Engineering<span className="text-primary">Insight</span>
               </span>
             </Link>
 
